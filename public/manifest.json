@@ -1,0 +1,25 @@
+{
+  "name": "mock-api",
+  "description": "mock api",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "favicon.ico"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "webNavigation",
+    "cookies",
+    "identity"
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  }
+}
