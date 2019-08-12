@@ -1,6 +1,6 @@
 {
-  "name": "mock-api",
-  "description": "mock api",
+  "name": "kmock",
+  "description": "kmock",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
